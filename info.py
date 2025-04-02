@@ -18,7 +18,7 @@ def is_enabled(value, default):
         return default
 
 #main variables
-API_ID = int(environ.get('API_ID', '28200856'))
+API_ID = int(environ.get('API_ID', '22807751'))
 API_HASH = environ.get('API_HASH', 'adbbccf8eed67602e3c13f2524272ae6')
 BOT_TOKEN = environ.get('BOT_TOKEN', '')
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5694158462').split()]
